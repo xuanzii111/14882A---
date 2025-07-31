@@ -203,14 +203,6 @@ def tu_fan():
 
     
 
-
-def takestop():
-    m_out1.set_max_torque(100, PERCENT)
-    m_out1.stop()
-    m_out2.set_max_torque(100, PERCENT)
-    m_out2.stop()
-
-
 def qi_geban_fang():
     qidong_geban.open()
 
